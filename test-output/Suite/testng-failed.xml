@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="75.0.3770.90"/>
+  <parameter name="url" value="https://pay.zing.vn"/>
+  <test name="Login guru on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="75.0.3770.90"/>
+    <parameter name="url" value="https://pay.zing.vn"/>
+    <classes>
+      <class name="com.payzing.testcase.HomePageScript_Only_One">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card"/>
+          <include name="testcase_10_ATM_Transfer_Napas"/>
+          <include name="testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID"/>
+          <include name="beforeClass"/>
+          <include name="testcase_11_ATM_Transfer_BANK_WEB"/>
+          <include name="testcase_15_SMS"/>
+          <include name="afterMethod"/>
+          <include name="testcase_14_Credit_Card"/>
+        </methods>
+      </class> <!-- com.payzing.testcase.HomePageScript_Only_One -->
+    </classes>
+  </test> <!-- Login guru on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

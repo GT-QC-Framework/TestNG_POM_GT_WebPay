@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="5" total="15" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="384934" started-at="2019-07-03T07:23:12Z" finished-at="2019-07-03T07:29:37Z">
+    <groups>
+    </groups>
+    <test name="Login guru on Chrome" duration-ms="384934" started-at="2019-07-03T07:23:12Z" finished-at="2019-07-03T07:29:37Z">
+      <class name="com.payzing.testcase.HomePageScript_Only_One">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeClass" is-config="true" duration-ms="20541" started-at="2019-07-03T14:23:12Z" finished-at="2019-07-03T14:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75.0.3770.90]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://pay.zing.vn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4349" started-at="2019-07-03T14:23:33Z" finished-at="2019-07-03T14:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_01_ZaloPay_Verify_display_QR_code()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_01_ZaloPay_Verify_display_QR_code" duration-ms="2874" started-at="2019-07-03T14:23:37Z" finished-at="2019-07-03T14:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_01_ZaloPay_Verify_display_QR_code -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="9" started-at="2019-07-03T14:23:40Z" finished-at="2019-07-03T14:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_01_ZaloPay_Verify_display_QR_code status=SUCCESS method=HomePageScript_Only_One.testcase_01_ZaloPay_Verify_display_QR_code()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4305" started-at="2019-07-03T14:23:40Z" finished-at="2019-07-03T14:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_02_ZingCard_Verify_display_form_input_information_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_02_ZingCard_Verify_display_form_input_information_card" duration-ms="95" started-at="2019-07-03T14:23:44Z" finished-at="2019-07-03T14:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_02_ZingCard_Verify_display_form_input_information_card -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:23:44Z" finished-at="2019-07-03T14:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_02_ZingCard_Verify_display_form_input_information_card status=SUCCESS method=HomePageScript_Only_One.testcase_02_ZingCard_Verify_display_form_input_information_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4312" started-at="2019-07-03T14:23:44Z" finished-at="2019-07-03T14:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card" duration-ms="1294" started-at="2019-07-03T14:23:49Z" finished-at="2019-07-03T14:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:23:50Z" finished-at="2019-07-03T14:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card status=SUCCESS method=HomePageScript_Only_One.testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4383" started-at="2019-07-03T14:23:50Z" finished-at="2019-07-03T14:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_04_ZingCard_Verify_display_message_when_only_input_Seri()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_04_ZingCard_Verify_display_message_when_only_input_Seri" duration-ms="2950" started-at="2019-07-03T14:23:54Z" finished-at="2019-07-03T14:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_04_ZingCard_Verify_display_message_when_only_input_Seri -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:23:57Z" finished-at="2019-07-03T14:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_04_ZingCard_Verify_display_message_when_only_input_Seri status=SUCCESS method=HomePageScript_Only_One.testcase_04_ZingCard_Verify_display_message_when_only_input_Seri()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4314" started-at="2019-07-03T14:23:57Z" finished-at="2019-07-03T14:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_05_ZingCard_Verify_display_message_when_only_input_Pin()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_05_ZingCard_Verify_display_message_when_only_input_Pin" duration-ms="2419" started-at="2019-07-03T14:24:02Z" finished-at="2019-07-03T14:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_05_ZingCard_Verify_display_message_when_only_input_Pin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:24:04Z" finished-at="2019-07-03T14:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_05_ZingCard_Verify_display_message_when_only_input_Pin status=SUCCESS method=HomePageScript_Only_One.testcase_05_ZingCard_Verify_display_message_when_only_input_Pin()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4321" started-at="2019-07-03T14:24:04Z" finished-at="2019-07-03T14:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_06_ZingCard_Verify_display_message_when_input_card_invalid()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_06_ZingCard_Verify_display_message_when_input_card_invalid" duration-ms="3999" started-at="2019-07-03T14:24:08Z" finished-at="2019-07-03T14:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_06_ZingCard_Verify_display_message_when_input_card_invalid -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:24:12Z" finished-at="2019-07-03T14:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_06_ZingCard_Verify_display_message_when_input_card_invalid status=SUCCESS method=HomePageScript_Only_One.testcase_06_ZingCard_Verify_display_message_when_input_card_invalid()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4275" started-at="2019-07-03T14:24:12Z" finished-at="2019-07-03T14:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_07_ZingCard_Verify_display_message_when_input_card_had_used()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_07_ZingCard_Verify_display_message_when_input_card_had_used" duration-ms="3971" started-at="2019-07-03T14:24:17Z" finished-at="2019-07-03T14:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_07_ZingCard_Verify_display_message_when_input_card_had_used -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:24:21Z" finished-at="2019-07-03T14:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_07_ZingCard_Verify_display_message_when_input_card_had_used status=SUCCESS method=HomePageScript_Only_One.testcase_07_ZingCard_Verify_display_message_when_input_card_had_used()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4326" started-at="2019-07-03T14:24:21Z" finished-at="2019-07-03T14:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_08_ATM_Transfer_Napas()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_08_ATM_Transfer_Napas" duration-ms="7343" started-at="2019-07-03T14:24:25Z" finished-at="2019-07-03T14:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_08_ATM_Transfer_Napas -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:24:32Z" finished-at="2019-07-03T14:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_08_ATM_Transfer_Napas status=SUCCESS method=HomePageScript_Only_One.testcase_08_ATM_Transfer_Napas()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4597" started-at="2019-07-03T14:24:32Z" finished-at="2019-07-03T14:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card" duration-ms="7168" started-at="2019-07-03T14:24:37Z" finished-at="2019-07-03T14:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-03T14:24:44Z" finished-at="2019-07-03T14:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card status=SUCCESS method=HomePageScript_Only_One.testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4603" started-at="2019-07-03T14:24:44Z" finished-at="2019-07-03T14:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testcase_10_ATM_Transfer_Napas()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_10_ATM_Transfer_Napas" duration-ms="21986" started-at="2019-07-03T14:24:49Z" finished-at="2019-07-03T14:25:11Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span data-bind="text: gtCore.mess.ContinutePayment">...</span> is not clickable at point (767, 234). Other element would receive the click: <div id="preloader-background">...</div>
+  (Session info: chrome=75.0.3770.100)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span data-bind="text: gtCore.mess.ContinutePayment">...</span> is not clickable at point (767, 234). Other element would receive the click: <div id="preloader-background">...</div>
+  (Session info: chrome=75.0.3770.100)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at CommonPage.commonFunction.click(commonFunction.java:49)
+	at com.payzing.actions.HomePage.clickTiepTucThanhToan(HomePage.java:111)
+	at com.payzing.testcase.HomePageScript_Only_One.testcase_10_ATM_Transfer_Napas(HomePageScript_Only_One.java:403)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_10_ATM_Transfer_Napas -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4377" started-at="2019-07-03T14:25:11Z" finished-at="2019-07-03T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-03T14:25:11Z" finished-at="2019-07-03T14:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_10_ATM_Transfer_Napas status=FAILURE method=HomePageScript_Only_One.testcase_10_ATM_Transfer_Napas()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testcase_11_ATM_Transfer_BANK_WEB()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_11_ATM_Transfer_BANK_WEB" duration-ms="116313" started-at="2019-07-03T14:25:15Z" finished-at="2019-07-03T14:27:11Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@class,'back')] (tried for 100 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@class,'back')] (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at CommonPage.commonFunction.waitVisible(commonFunction.java:307)
+	at com.payzing.actions.HomePage.clickBank_Tranfers_ZALOPAY_Huy_Icon_PopUp_XacNhan_BTT_QuayVe_BTT(HomePage.java:340)
+	at com.payzing.testcase.HomePageScript_Only_One.testcase_11_ATM_Transfer_BANK_WEB(HomePageScript_Only_One.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[contains(@class,'back')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_11_ATM_Transfer_BANK_WEB -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:27:11Z" finished-at="2019-07-03T14:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_11_ATM_Transfer_BANK_WEB status=FAILURE method=HomePageScript_Only_One.testcase_11_ATM_Transfer_BANK_WEB()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4398" started-at="2019-07-03T14:27:11Z" finished-at="2019-07-03T14:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card" duration-ms="3519" started-at="2019-07-03T14:27:16Z" finished-at="2019-07-03T14:27:19Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at CommonPage.commonFunction.click(commonFunction.java:49)
+	at com.payzing.actions.HomePage.clickBank_Tranfers_ZALOPAY_Huy_Icon_PopUp_XacNhan_BTT_QuayVe_BTT(HomePage.java:341)
+	at com.payzing.testcase.HomePageScript_Only_One.testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card(HomePageScript_Only_One.java:452)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-03T14:27:19Z" finished-at="2019-07-03T14:27:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card status=FAILURE method=HomePageScript_Only_One.testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4662" started-at="2019-07-03T14:27:19Z" finished-at="2019-07-03T14:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID" duration-ms="11962" started-at="2019-07-03T14:27:24Z" finished-at="2019-07-03T14:27:36Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at CommonPage.commonFunction.click(commonFunction.java:49)
+	at com.payzing.actions.HomePage.clickBank_Tranfers_ZALOPAY_Huy_Icon_PopUp_XacNhan_BTT_QuayVe_BTT(HomePage.java:341)
+	at com.payzing.testcase.HomePageScript_Only_One.testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID(HomePageScript_Only_One.java:511)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-03T14:27:36Z" finished-at="2019-07-03T14:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID status=FAILURE method=HomePageScript_Only_One.testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4668" started-at="2019-07-03T14:27:36Z" finished-at="2019-07-03T14:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testcase_14_Credit_Card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_14_Credit_Card" duration-ms="115450" started-at="2019-07-03T14:27:41Z" finished-at="2019-07-03T14:29:36Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='btnRetryGetResult'] (tried for 100 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='btnRetryGetResult'] (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at CommonPage.commonFunction.waitVisible(commonFunction.java:307)
+	at com.payzing.actions.HomePage.clickKiemTraKetQuaGiaoDich(HomePage.java:116)
+	at com.payzing.testcase.HomePageScript_Only_One.testcase_14_Credit_Card(HomePageScript_Only_One.java:555)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //button[@id='btnRetryGetResult']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_14_Credit_Card -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-07-03T14:29:36Z" finished-at="2019-07-03T14:29:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_14_Credit_Card status=FAILURE method=HomePageScript_Only_One.testcase_14_Credit_Card()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-03T14:29:36Z" finished-at="2019-07-03T14:29:36Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : }
+  (Session info: chrome=75.0.3770.100): 
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092
+*** Element info: {Using=xpath, value=//div[contains(@class,'am-gallery-item')]//input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=75.0.3770.100): 
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NHUTBM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\LAP121~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5b5714bf3d50aadf53a584ec565a092
+*** Element info: {Using=xpath, value=//div[contains(@class,'am-gallery-item')]//input}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
+	at com.payzing.testcase.HomePageScript_Only_One.beforeMethod(HomePageScript_Only_One.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testcase_15_SMS()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="testcase_15_SMS" duration-ms="2" started-at="2019-07-03T14:29:37Z" finished-at="2019-07-03T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_15_SMS -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-03T14:29:37Z" finished-at="2019-07-03T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.payzing.testcase.HomePageScript_Only_One@26be92ad]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-03T14:29:37Z" finished-at="2019-07-03T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.payzing.testcase.HomePageScript_Only_One -->
+    </test> <!-- Login guru on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.payzing.testcase.HomePageScript_Only_One">
+        <methods>
+          <include name="testcase_09_ATM_Transfer_Napas_Verify_display_message_when_dont_input_information_card"/>
+          <include name="testcase_12_ATM_Transfer_ZaloPay_Verify_display_form_input_infor_card"/>
+          <include name="testcase_07_ZingCard_Verify_display_message_when_input_card_had_used"/>
+          <include name="testcase_02_ZingCard_Verify_display_form_input_information_card"/>
+          <include name="testcase_06_ZingCard_Verify_display_message_when_input_card_invalid"/>
+          <include name="testcase_13_ATM_Transfer_ZaloPay_Verify_display_transactionID"/>
+          <include name="testcase_10_ATM_Transfer_Napas"/>
+          <include name="testcase_03_ZingCard_Verify_display_message_when_dont_input_Seri_and_Pin_card"/>
+          <include name="testcase_11_ATM_Transfer_BANK_WEB"/>
+          <include name="testcase_08_ATM_Transfer_Napas"/>
+          <include name="testcase_15_SMS"/>
+          <include name="testcase_05_ZingCard_Verify_display_message_when_only_input_Pin"/>
+          <include name="testcase_01_ZaloPay_Verify_display_QR_code"/>
+          <include name="testcase_04_ZingCard_Verify_display_message_when_only_input_Seri"/>
+          <include name="testcase_14_Credit_Card"/>
+        </methods>
+      </class> <!-- com.payzing.testcase.HomePageScript_Only_One -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
